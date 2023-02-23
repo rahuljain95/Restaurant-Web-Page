@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 50px;
+}
+.list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    color: #ffc233;
+    font-weight: 300;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Red Rose', cursive;
+}
+.logo {
+    cursor: pointer;
+}
+.small-button{
+    padding: 10px 35px;
+    background-color: #ff505f;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: #ffffff;
+    font-family: 'Red Rose', cursive;
+}
+.main{
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 90px;
+    margin: 0 auto;
+}
+.heading {
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 114px;
+    color: #ffc233;
+    font-family: 'Dela Gothic One', cursive;
+}
+.large-button {
+    background-color: #ff505f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-style: normal;
+    line-height: 40px;
+    font-family: 'Red Rose', cursive;
+}
+.bottom {
+    position: absolute;
+    bottom: 2px;
+    right: 60px;
+}
